@@ -1,0 +1,8 @@
+.btn-light{
+background-color: coral;
+border-color: black;
+}
+
+.btn-light:hover{
+    background-color: fuchsia;
+}

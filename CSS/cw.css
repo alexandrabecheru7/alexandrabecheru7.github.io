@@ -1,0 +1,80 @@
+#heading1{
+    color:#DFF1F0;
+    background-color:#14A6B0;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    
+}
+
+.text-green{
+    color:rgb(192, 255, 167);
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.text-pink{
+    color: #ff44c1;
+}
+
+.text-background-purple{
+    background-color: #a396f7;
+}
+
+a{
+    background-color: #ff0037;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+    margin-right: 50px;
+    border-style:dashed;
+    color:var(--just-blue)
+
+}
+
+a:hover{
+color: #54ff44;
+
+}
+
+
+body{
+    background-image: url("../ASSET/sample.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    color: #fff1f8;
+    background-color:#99CEF0;
+    font-family:"Roboto";
+    font-style: italic;
+    font-weight: 100;
+}
+
+h1{
+    font-size: 3.8rem;
+    text-transform: uppercase;
+    font-family:"Roboto","Montserrat",cursive;
+
+}
+
+.text-para{
+    text-align: right;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+@media (max-width: 576px){
+    body {
+        background-color: yellow;
+    }
+
+}
+    
+
+:root {
+ --primary-blue: #0d00ff;
+ --just-blue: #0d00ff;
+
+
+}
+    
+
+   
+
