@@ -1,50 +1,57 @@
-
-.logo{
-  width: 125px;
-  height: 125px;
-  background-image: url(../ASSET/IMG/LOGO/browntxt.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  position:fixed;
-  top: 20px;
-  left: 100px;
-}
-
-.logo:hover{
-  background-image: url(../ASSET/IMG/LOGO/brownbg.png);
-}
-
-h1{
-font-family:Arial, Helvetica, sans-serif;
-color: #DFF1F0;
-font-size: 2.5em;
-position: fixed;
-left: 250px;
-}
-
 body{
-background-color:#99CEF0;
+  font-size: 12px;
+  background-color: #99cef0;
+  margin: 0;
 }
 
-nav ul{
-list-style: none;
-display: flex;
-justify-content: flex-end;
-gap: 40px;
-padding: 0;
-margin-top: 10px;
-margin-right: 100px;}
-
-nav ul li a{
-    font-family: Arial, Helvetica, sans-serif;
-text-decoration: none;
-color: #DFF1F0;
-font-size: 1.8em;
+.header-container{
+  border-bottom: 4px solid #684640;
+  padding-bottom: 0px;
+  margin-bottom:  30px;
 }
 
-a:hover{
-color: #684640;
+.logo-img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-image: url('../ASSET/IMG/LOGO/browntxt.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 0.3s ease;
+}
+
+.logo-img:hover {
+  background-image: url('../ASSET/IMG/LOGO/brownbg.png');
+}
+
+.h1 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:#dff1f0;
+  font-size: 2.0rem;
+  line-height: 1.2;
+  left: 10px;
 }
 
 
+.bg-teal{
+  background-color:#14a6b0 ;
+}
 
+.nav-item a{
+  color: #dff1f0;
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: auto;
+}
+
+.nav-item a:hover{
+  color:#684640 ;
+}
+
+.line-under-header{
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  margin-top: 10px;}
