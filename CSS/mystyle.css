@@ -1,57 +1,73 @@
+html{
+  overflow-y: scroll;
+}
 body{
   font-size: 12px;
   background-color: #99cef0;
   margin: 0;
-}
-
+  font-family:'Times New Roman', Times, serif"
+  }
 .header-container{
-  border-bottom: 4px solid #684640;
-  padding-bottom: 0px;
-  margin-bottom:  30px;
-}
-
+  border-bottom: 2px solid #684640;}
 .logo-img {
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   background-image: url('../ASSET/IMG/LOGO/browntxt.png');
   background-size: cover;
   background-repeat: no-repeat;
-  transition: background-image 0.3s ease;
-}
-
+  transition: background-image 0.3s ease;}
 .logo-img:hover {
-  background-image: url('../ASSET/IMG/LOGO/brownbg.png');
-}
-
-.h1 {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url('../ASSET/IMG/LOGO/brownbg.png');}
+.h1{
+  font-family: Monomakh;
   color:#dff1f0;
-  font-size: 2.0rem;
-  line-height: 1.2;
-  left: 10px;
+  font-size: 1.7rem;
+  text-shadow: 1px 1px 0 #684640;}
+.h1:hover{
+color: #684640;
+text-shadow: 1px 1px 0 #dff1f0;}
+.bg-babyblue{
+  background-color:#99cef0 ;}
+.bg-brown{
+  background-color: #684640;}
+.bg-lightblue{
+background-color: #dff1f0;}
+.bg-cyan{
+background-color:#14a6b0 ;}
+.txt-babyblue{
+  font-family: Monomakh;
+color: #99cef0;}
+.txt-brown{
+  color: #684640;
+  font-family:}
+.txt-lightblue{
+  color: #dff1f0;}
+.underline {
+  width: 395px;
+  height: 4px;
+  background-color: #89CFF0; /* or your baby blue */
+  border: none;
+  margin-top: 0.5rem;
 }
-
-
-.bg-teal{
-  background-color:#14a6b0 ;
-}
-
 .nav-item a{
   color: #dff1f0;
-  font-size: 1.3rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  font-size: 1.0rem;
+  font-family: Monomakh;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: auto;
-}
-
+  text-shadow:1px 1px 0 #684640 ;}
 .nav-item a:hover{
-  color:#684640 ;
-}
-
-.line-under-header{
-  width: 100%;
-  height: 2px;
-  background-color: #333;
-  margin-top: 10px;}
+  color: #684640 ;
+  text-shadow: 1px 1px 0 #dff1f0;}
+.landingpage{
+  background-color: #dff1f0;}
+img { 
+  transition: transform 0.3s; }
+img:hover { 
+  transform: scale(1.05); }
+.btn-brown{
+background-color: #684640;
+color: white !important;}
+.btn-brown:hover{
