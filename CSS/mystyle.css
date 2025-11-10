@@ -17,15 +17,17 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   transition: background-image 0.3s ease;}
+
 .logo-img:hover {
   background-image: url('../ASSET/IMG/LOGO/brownbg.png');}
+
 .h1{
   font-family: Monomakh;
   color:#dff1f0;
   font-size: 1.7rem;
   text-shadow: 1px 1px 0 #684640;}
 .h1:hover{
-  font-size: 12px;
+  font-size: 1.7rem;
   background-color: #99cef0;
   margin: 0;
   font-family:'Times New Roman', Times, serif"
@@ -72,7 +74,14 @@ color: #99cef0;}
   background-color: #89CFF0; /* or your baby blue */
   border: none;
   margin-top: 0.5rem;
+  margin-left: 0;
 }
+@media (max-width: 500px) {
+.underline{
+  margin-left: auto;
+  margin-right: auto;}
+}
+
 .nav-item a{
   color: #dff1f0;
   font-size: 1.0rem;
