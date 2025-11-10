@@ -6,16 +6,18 @@
   <title>Alexandra Becheru</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="CSS/mystyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Monomakh&display=swap" rel="stylesheet">
 </head>
-
 <body>
-<header class="header-container sticky-top">
-<nav class="navbar navbar-expand-xl bg-teal">
+<header class="header-container sticky-top shadow-sm">
+<nav class="navbar navbar-expand-lg bg-babyblue py-1">
   <div class="container">
-    <a href="index.html" class="navbar-brand d-flex align-items-center ms-auto">
-  <div class="logo-img"></div>
-  <h1 class="h1 ms-5 mb-0">Alexandra<br>Becheru</h1>
-
+    <a href="index.html" class="navbar-brand d-flex align-items-center gap-4">
+  <div class="logo-img">
+  </div>
+  <h1 class="h1 m-1 mx-auto">Alexandra<br>Becheru</h1>
 </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#resumeNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -24,22 +26,54 @@
     <div class="collapse navbar-collapse" id="resumeNavbar">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-          <a class="nav-link mx-2" a href="about.html">About</a>
+          <a class="nav-link mx-3" a href="index.html">About Me</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="#skills">Skills</a>
+          <a class="nav-link mx-3" a href="education.html">Education</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="#experience">Experience</a>
+          <a class="nav-link mx-3" a href="experience.html">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-2" href="#contact">Contact</a>
+          <a class="nav-link mx-3" a href="skills.html">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-3" a href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 </header>
-
+<content>
+<div class="landingpage">
+  <div class="min-vh-100 d-flex align-items-center justify-content-center px-4">
+    <div class="introduction w-100">
+      <div class="bg-white p-2 p-lg-5 rounded-5 shadow">
+        <div class="row align-items-center g-1 g-lg-5">
+          <div class="col-10 col-lg-7 text-lg-start text-center order-2 order-lg-1 mx-auto">
+            <h2 class="display-4 fw-bold mb-1 txt-babyblue">
+              Hi,<br> I'm Alexandra!
+            </h2>
+            <hr class="underline">
+            <p class="lead fs-3 mb-3 txt-brown">
+            Librarian
+            </p>
+            <p class="fs-5 mb-4 txt-brown">
+              An information professional with a background and proficiency in communications looking to explore culturally innovative environments within the public sectors of arts, leisure and entertainment. I am passionate about taking on meaningful challenges with the goal of providing communities equitable and fair access to information, public resources and services.
+            </p>
+            <a href="contact.html" class="btn btn-brown btn-lg px-5 py-3 rounded-pill">Say Hi!</a>
+          </div>
+          <div class="col-12 col-lg-5 text-center">
+            <img src="../alexandrabecheru7.github.io-main/ASSET/IMG/LOGO/D452D687-5939-4F11-AD3C-FA60A8B39FD8.jpeg" alt="Alexandra Becheru" onclick="this.requestFullscreen()" 
+                 class="img-fluid rounded-5 shadow" 
+                 style="max-width: 400px; width: 100%; height: auto;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</content>
 </body>
 </html>
