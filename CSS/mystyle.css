@@ -1,7 +1,32 @@
 html{
   overflow-y: scroll;
+html{
+  overflow-y: scroll;
 }
 body{
+  font-size: 12px;
+  background-color: #99cef0;
+  margin: 0;
+  font-family:'Times New Roman', Times, serif"
+  }
+.header-container{
+  border-bottom: 2px solid #684640;}
+.logo-img {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-image: url('../ASSET/IMG/LOGO/browntxt.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: background-image 0.3s ease;}
+.logo-img:hover {
+  background-image: url('../ASSET/IMG/LOGO/brownbg.png');}
+.h1{
+  font-family: Monomakh;
+  color:#dff1f0;
+  font-size: 1.7rem;
+  text-shadow: 1px 1px 0 #684640;}
+.h1:hover{
   font-size: 12px;
   background-color: #99cef0;
   margin: 0;
