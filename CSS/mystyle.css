@@ -8,6 +8,7 @@ body{
   }
 .header-container{
   border-bottom: 2px solid #684640;}
+
 .logo-img {
   display: inline-block;
   width: 60px;
@@ -25,14 +26,17 @@ body{
   color:#dff1f0;
   font-size: 1.7rem;
   text-shadow: 1px 1px 0 #684640;}
+
 .h1:hover{
   font-size: 1.7rem;
   background-color: #99cef0;
   margin: 0;
   font-family:'Times New Roman', Times, serif"
   }
+
 .header-container{
   border-bottom: 2px solid #684640;}
+
 .logo-img {
   display: inline-block;
   width: 60px;
@@ -41,16 +45,20 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   transition: background-image 0.3s ease;}
+
 .logo-img:hover {
   background-image: url('../ASSET/IMG/LOGO/brownbg.png');}
+
 .h1{
   font-family: Monomakh;
   color:#dff1f0;
   font-size: 1.7rem;
   text-shadow: 1px 1px 0 #684640;}
+
 .h1:hover{
 color: #684640;
 text-shadow: 1px 1px 0 #dff1f0;}
+
 .bg-babyblue{
   background-color:#99cef0 ;}
 .bg-brown{
@@ -84,18 +92,24 @@ color: #99cef0;}
   margin-bottom: 10px;
   padding: auto;
   text-shadow:1px 1px 0 #684640 ;}
+
 .nav-item a:hover{
   color: #684640 ;
   text-shadow: 1px 1px 0 #dff1f0;}
+
 .landingpage{
   background-color: #dff1f0;}
-img { 
+
+img{ 
   transition: transform 0.3s; }
+
 img:hover { 
-  transform: scale(1.05); }
+  transform: scale(1.04); }
+
 .btn-brown{
 background-color: #684640;
 color: white !important;}
+
 .btn-brown:hover{
   background-color: #99cef0;
   border-color: #dff1f0;
@@ -105,7 +119,6 @@ color: white !important;}
 border: 2px solid #684640 !important;
 }
 
-
 h5{
 color: white;
 font-family: Monomakh ;
@@ -113,7 +126,14 @@ text-shadow: 1px 1px 0 #684640;
 font-size: 1.3rem;
 }
 
+
 .school-box{
 color: #684640;
+}
+
+.card-title{
+color: #99cef0;
+text-shadow: #684640;
 
 }
+
