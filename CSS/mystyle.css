@@ -3,7 +3,7 @@ html{
 }
 body{
   font-size: 12px;
-  background-color: #99cef0;
+  background-color: #dff1f0;
   font-family:'Times New Roman', Times, serif"
   }
 .header-container{
@@ -100,11 +100,6 @@ color: #99cef0;}
 .landingpage{
   background-color: #dff1f0;}
 
-img{ 
-  transition: transform 0.3s; }
-
-img:hover { 
-  transform: scale(1.04); }
 
 .btn-brown{
 background-color: #684640;
