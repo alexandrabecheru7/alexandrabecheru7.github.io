@@ -106,11 +106,12 @@ color: white; }
 
 .btn-babyblue:hover{
 background-color: #99cef0;
-color: #684640;
+color: white;
 }
 
 .school-box{
 border: 2px solid #684640 !important;
+background-color: #99cef0;
 }
 
 h5{
@@ -123,6 +124,11 @@ font-size: 1.3rem;
 
 .school-box{
 color: #684640;
+}
+
+.img-schoollogo{
+width: 300px;
+height: 300px;
 }
 
 .card-title{
