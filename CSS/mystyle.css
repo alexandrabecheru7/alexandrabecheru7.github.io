@@ -89,24 +89,24 @@ color: #99cef0;}
 
 
 .btn-brown{
-background-color: #684640;
-color: white; }
-
-.btn-babyblue{
-background-color: #99cef0;
-color: #684640;  
-}
-
-.btn-brown:hover{
   background-color: white;
   color: #684640;
-  border-color: #684640;
-}
+  border-color: #684640;}
 
-.btn-babyblue:hover{
+.btn-babyblue{
 background-color: white;
 color: #99cef0;
 border-color: #99cef0;
+}
+
+.btn-brown:hover{
+  background-color: #684640;
+color: white; }
+
+
+.btn-babyblue:hover{
+background-color: #99cef0;
+color: #684640;
 }
 
 .school-box{
