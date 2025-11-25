@@ -90,13 +90,25 @@ color: #99cef0;}
 
 .btn-brown{
 background-color: #684640;
-color: white !important;}
+color: white; }
+
+.btn-babyblue{
+background-color: #99cef0;
+color: #684640;  
+}
 
 .btn-brown:hover{
-  background-color: #99cef0;
-  border-color: #dff1f0;
-  transform:  translate(-3px);
+  background-color: white;
+  color: #684640;
+  border-color: #684640;
 }
+
+.btn-babyblue:hover{
+background-color: white;
+color: #99cef0;
+border-color: #99cef0;
+}
+
 .school-box{
 border: 2px solid #684640 !important;
 }
