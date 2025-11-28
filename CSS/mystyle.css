@@ -40,12 +40,12 @@ body{
 .h1{
   font-family: Monomakh;
   color:#dff1f0;
-  font-size: 18px;
+  font-size: 24px;
   text-shadow: 1px 1px 0 #684640;}
 
 .h1:hover{
-color: #684640;
-text-shadow: 1px 1px 0 #dff1f0;}
+color: #ffffff;
+text-shadow: 1px 1px 0 #684640;}
 
 .bg-babyblue{
   background-color: #0F828A;}
@@ -82,8 +82,8 @@ color: #0F828A;}
   text-shadow:1px 1px 0 #684640 ;}
 
 .nav-item a:hover{
-  color: #684640 ;
-  text-shadow: 1px 1px 0 #dff1f0;}
+  color: #ffffff ;
+  text-shadow: 1px 1px 0 #684640;}
 
 .landingpage{
   background-color: #dff1f0;}
@@ -120,7 +120,7 @@ h5{
 color: white;
 text-shadow: 1px 1px 0px #684640;
 font-family: Monomakh ;
-font-size: 1.3rem;
+font-size: 20px;
 }
 
 
@@ -132,7 +132,7 @@ height: 300px;
 .card-title{
 color: #684640;
 font-family: Monomakh;
-font-size: 24px;
+font-size: 20px;
 text-decoration:underline;
 }
 
@@ -142,7 +142,7 @@ text-decoration:underline;
 }
 
 .card-text{
-font-size: 1rem;
+font-size: 16px;
 
 }
 
