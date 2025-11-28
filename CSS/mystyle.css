@@ -2,10 +2,11 @@ html{
   overflow-y: scroll;
 }
 body{
-  font-size: 12px;
+  font-size: 16px;
   background-color: #dff1f0;
   font-family:'Times New Roman', Times, serif"
   }
+
 .header-container{
   border-bottom: 2px solid #684640;}
 
@@ -39,7 +40,7 @@ body{
 .h1{
   font-family: Monomakh;
   color:#dff1f0;
-  font-size: 1.7rem;
+  font-size: 18px;
   text-shadow: 1px 1px 0 #684640;}
 
 .h1:hover{
@@ -47,7 +48,7 @@ color: #684640;
 text-shadow: 1px 1px 0 #dff1f0;}
 
 .bg-babyblue{
-  background-color:#99cef0 ;}
+  background-color: #0F828A;}
 .bg-brown{
   background-color: #684640;}
 .bg-lightblue{
@@ -56,7 +57,7 @@ background-color: #dff1f0;}
 background-color:#14a6b0 ;}
 .txt-babyblue{
   font-family: Monomakh;
-color: #99cef0;}
+color: #0F828A;}
 .txt-brown{
   color: #684640;
   font-family:}
@@ -66,7 +67,7 @@ color: #99cef0;}
 .underline {
   width: 395px;
   height: 4px;
-  background-color: #89CFF0; /* or your baby blue */
+  background-color: #0F828A; 
   border: none;
   margin-top: 0.5rem;
   margin-left: 0;
@@ -89,29 +90,30 @@ color: #99cef0;}
 
 
 .btn-brown{
-  background-color: white;
+  background-color: #ffffff;
   color: #684640;
   border-color: #684640;}
 
 .btn-babyblue{
 background-color: white;
-color: #99cef0;
-border-color: #99cef0;
+color: #0F828A;
+border-color: #0F828A;
 }
 
 .btn-brown:hover{
-  background-color: #684640;
+background-color: #684640;
 color: white; }
 
 
 .btn-babyblue:hover{
-background-color: #99cef0;
+background-color: #0F828A;
 color: white;
 }
 
 .school-box{
 border: 2px solid #684640 !important;
-background-color: #99cef0;
+background-color: #0F828A;
+color: #684640;
 }
 
 h5{
@@ -122,10 +124,6 @@ font-size: 1.3rem;
 }
 
 
-.school-box{
-color: #684640;
-}
-
 .img-schoollogo{
 width: 300px;
 height: 300px;
@@ -134,12 +132,22 @@ height: 300px;
 .card-title{
 color: #684640;
 font-family: Monomakh;
-font-size: 1.5rem;
+font-size: 24px;
+text-decoration:underline;
 }
-
 
 .card img {
   width: 300px;
   height: 300px;
+}
 
+.card-text{
+font-size: 1rem;
+
+}
+
+.form-label{
+font-family: Monomakh;
+color: #684640;
+font-size: 20px;
 }
