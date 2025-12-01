@@ -123,6 +123,19 @@ font-family: Monomakh ;
 font-size: 20px;
 }
 
+h3{
+color: #dff1f0;
+text-shadow: 1px 1px 0px #684640;
+font-family: Monomakh;
+font-size: 30px;
+}
+
+h4{
+
+
+  
+}
+
 
 .img-schoollogo{
 width: 300px;
@@ -148,6 +161,8 @@ font-size: 16px;
 
 .form-label{
 font-family: Monomakh;
-color: #684640;
+text-shadow: #684640;
+color: #dff1f0;
 font-size: 20px;
 }
+
