@@ -133,7 +133,7 @@ font-size: 30px;
 h4{
 
 
-  
+
 }
 
 
@@ -164,5 +164,34 @@ font-family: Monomakh;
 text-shadow: #684640;
 color: #dff1f0;
 font-size: 20px;
+}
+
+.project-card {
+  overflow: hidden;
+}
+
+.project-card img {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.05); /* zoom effect */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.7);
+  color: #fff;
+  padding: 10px;
+  font-size: 0.85rem; /* smaller text */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover .overlay {
+  opacity: 1;
 }
 
